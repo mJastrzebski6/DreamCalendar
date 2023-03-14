@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/datetv"
+        android:text="p"/>
+
+    <EditText
+        android:background="@android:color/transparent"
+        android:hint="Dzisiaj śniło mi się ..."
+
+        android:minLines="6"
+        android:gravity="top|start"
+        android:padding="10dp"
+
+        android:inputType="textMultiLine"
+        android:id="@+id/maintv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll1"
+        android:layout_below="@+id/datetv"
+        tools:ignore="LabelFor" />
+
+    <View
+        android:layout_below="@+id/maintv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"/>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/goback_tv"
+            android:gravity="center"
+            android:text="WYJDŹ"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/delete_tv"
+            android:gravity="center"
+            android:text="USUŃ"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/save_tv"
+            android:gravity="center"
+            android:text="ZAKTUALIZUJ"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

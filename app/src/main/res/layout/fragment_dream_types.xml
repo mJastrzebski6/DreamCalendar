@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_marginVertical="20dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuń kategorię"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/type_spinner"
+                android:layout_marginEnd="50dp"/>
+            <Button
+                android:id="@+id/delete_dream_type_button"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuń"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginVertical="20dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nowa kategoria snów"/>
+
+        <EditText
+            android:backgroundTint="#ff0000"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Podaj kategorię"
+            android:textColor="#ff0000"
+            android:forceDarkAllowed="false"
+            android:id="@+id/dream_type_text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions" />
+
+        <LinearLayout
+            android:layout_marginVertical="20dp"
+            android:gravity="center"
+            android:forceDarkAllowed="false"
+            android:id="@+id/types_color_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"
+            android:id="@+id/add_dream_type_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj"/>
+
+</LinearLayout>

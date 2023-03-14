@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ARCHIWUM ZAWODOWYCH/JAVA_ANDROID/Dreamcalendar/app/src/main/res/layout/fragment_search.xml" value="0.5546875" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout-v29/fragment_dream_types.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/activity_main.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/app_bar_main.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/calendar_cell.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/content_main.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/dream_row_layout.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_calendar.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_dream_types.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_existing_note.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_gallery.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_home.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_note.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_search.xml" value="0.37907608695652173" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/fragment_slideshow.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/layout/nav_header_main.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/menu/activity_main_drawer.xml" value="0.3140625" />
+        <entry key="..\:/Users/Chemik/AndroidStudioProjects/Dreamcalendar/app/src/main/res/menu/main.xml" value="0.3140625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
